@@ -1,0 +1,1881 @@
+{
+  "checked_on": "2026-10-01",
+  "method": "Crossref REST API (https://api.crossref.org/works). Field-by-field comparison for every cited reference: title, every author family name in order, author count, container title, volume, issue, pages, and year; plus a retraction/correction screen (update-to / updated-by). Publisher landing pages consulted where Crossref name order looked inverted.",
+  "n_references_in_bibliography": 116,
+  "n_cited_in_main_text": 112,
+  "n_dois_resolving_on_crossref": 116,
+  "n_dois_failing_to_resolve": 0,
+  "corrections_applied": [
+    {
+      "bibtex_key": "liu2023chemiresistive",
+      "field": "author",
+      "was": "Liu, Yang and others",
+      "now": "Yang, Liu and Qin, Molin and Zhang, Genwei and Yang, Jie and Yang, Junchao and Zhao, Jiang",
+      "note": "Given/family name inversion: the Crossref record gives family name Yang, given name Liu. Volume 42 and article number 20220052 added."
+    },
+    {
+      "bibtex_key": "lin2024mlnanomaterial",
+      "field": "title",
+      "was": "Machine learning in nanomaterial-based optical sensor arrays",
+      "now": "Elevating nanomaterial optical sensor arrays through the integration of advanced machine learning techniques for enhancing visual inspection of food quality and safety",
+      "note": "Submitted title did not match the Crossref record. Full author list, volume 65, pages 3628-3649 and print year 2025 added."
+    },
+    {
+      "bibtex_key": "yu2025mlgasmedical",
+      "field": "title",
+      "was": "Machine learning gas-sensor arrays in medical diagnosis",
+      "now": "A Review of Machine Learning-Assisted Gas Sensor Arrays in Medical Diagnosis",
+      "note": "Submitted title did not match the Crossref record. Full author list, volume 15 and article number 548 added."
+    },
+    {
+      "bibtex_key": "bilal2025foodarray",
+      "field": "year",
+      "was": "2025",
+      "now": "2026",
+      "note": "Crossref published-print date is 2026; volume 42, pages 1797-1822 and full author list added."
+    },
+    {
+      "bibtex_key": "kim2026whitepowder",
+      "field": "volume/pages",
+      "was": "(absent; in press)",
+      "now": "volume 151, pages 5085-5094",
+      "note": "Article has since been paginated."
+    },
+    {
+      "bibtex_key": "cheng2025mofdetox",
+      "field": "author/volume/pages",
+      "was": "Cheng, Zhihua and others",
+      "now": "full five-author list; volume 37, article 2413848",
+      "note": "Incomplete author list completed from Crossref."
+    },
+    {
+      "bibtex_key": "webb2025simulants",
+      "field": "author/volume/pages",
+      "was": "Webb, Sally and others",
+      "now": "full three-author list; volume 492, article 138021",
+      "note": "Incomplete author list completed from Crossref."
+    },
+    {
+      "bibtex_key": "sun2020aunparray",
+      "field": "author/volume/pages",
+      "was": "Sun, Jingwei and others",
+      "now": "full six-author list; volume 122, article 115754",
+      "note": "Incomplete author list completed from Crossref."
+    },
+    {
+      "bibtex_key": "kumar2023foodqc",
+      "field": "author/volume/pages",
+      "was": "Kumar, Abhishek and others",
+      "now": "full three-author list; volume 23, article 4017",
+      "note": "Incomplete author list completed from Crossref."
+    }
+  ],
+  "retained_by_design": [
+    "Year fields for li2018optoelectronic, kangas2016explosives, li2018coethylene, mahmoudi2015nanoparticles, li2017liquors, workman2017calibrationtransfer, whalen2022pitfalls and nakhleh2017disease intentionally carry the journal issue (print) year, which differs from the Crossref 'issued' date because that field records the earlier online-first date. The issue year is the correct citation year and was retained.",
+    "ganin2017dann is a book chapter: 'Domain Adaptation in Computer Vision Applications' is the book title; Crossref reports the series title 'Advances in Computer Vision and Pattern Recognition' as container-title. The book title was retained.",
+    "liberatore2025qepas, kanchan2025smartphone and dockes2021datasetshift use publisher article identifiers (owaf002, 829, giab055) in place of a page range; Crossref reports no page range for these records.",
+    "jing2011zincporphyrin and bilal2025foodarray: author name order (e.g. 'Jianhua, Xu'; 'Xiaobo, Zou') follows the publishers' own version of record (ScienceDirect and Taylor & Francis landing pages), which matches Crossref; left unchanged.",
+    "nakhleh2017disease: Crossref title contains '<i>via</i>' markup; the plain-text title in the bibliography is identical in wording."
+  ],
+  "records": [
+    {
+      "bibtex_key": "hazref",
+      "doi": "10.1016/j.jhazmat.2025.140703",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Machine learning-enhanced colorimetric sensor array for rapid detection of nerve agents",
+        "author": "Kim, Jeongyun and Kang, Ku and Shin, Myeongsik and Kim, Soohwan and Yoo, Jin and Kim, Min-Kun and Lee, Won Bo and Lee, Doo-Hee",
+        "container_title": "Journal of Hazardous Materials",
+        "volume": "501",
+        "number": "",
+        "pages": "140703",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "kim2025multiplex",
+      "doi": "10.1007/s44397-025-00032-y",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A multiplex chromogenic–fluorogenic sensor array for comprehensive optical discrimination of chemical warfare agents",
+        "author": "Kim, Soohwan and Yoo, Jin and Kang, Ku and Kim, Jeongyun and Shin, Myeongsik and Cha, Yeon Kyung and Churchill, David G. and Kim, Min-Kun and Lee, Doo-Hee",
+        "container_title": "Discover Sensors",
+        "volume": "1",
+        "number": "1",
+        "pages": "",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "shin2026novichok",
+      "doi": "10.1016/j.snb.2026.139706",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Portable machine learning–integrated optical sensor array for rapid and selective detection of authentic Novichok nerve agents",
+        "author": "Shin, Myeongsik and Kang, Ku and Kim, Jeongyun and Kim, Soohwan and Yoo, Jin and Jang, Yoon Jeong and Kim, Min-Kun and Anslyn, Eric V. and Lee, Doo-Hee",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "457",
+        "number": "",
+        "pages": "139706",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "bae2025yolo",
+      "doi": "10.1016/j.chemolab.2025.105365",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Field-deployable real-time {AI} System for chemical warfare agent detection using {YOLOv8} and colorimetric sensors",
+        "author": "Bae, Sojeong and Kang, Ku and Kim, Young Kyun and Jang, Yoon Jeong and Lee, Doo-Hee",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "261",
+        "number": "",
+        "pages": "105365",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "kim2026drift",
+      "doi": "10.3390/molecules31111884",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Drift-Robust Lightweight Deep Learning on Open Gas Sensor Benchmarks: A Reproducible Architecture Study with {CBRN} Applicability Mapping",
+        "author": "Kim, Soohwan and Shin, Myeongsik and Kang, Ku and Lee, Doo-Hee and Churchill, David G. and Jang, Yoon Jeong",
+        "container_title": "Molecules",
+        "volume": "31",
+        "number": "11",
+        "pages": "1884",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "kim2026multiendpoint",
+      "doi": "10.1016/j.ecoenv.2026.120283",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Integrated multi-endpoint hazard prioritization of unregulated industrial contaminants: A safety-first screening framework for emerging environmental threats",
+        "author": "Kim, Jeongyun and Bae, Sojeong and Jang, Yoon Jeong and Bae, Jeongwon and Lee, Doo-Hee and Lee, Dongyoul and Lee, Won Bo and Kang, Ku",
+        "container_title": "Ecotoxicology and Environmental Safety",
+        "volume": "319",
+        "number": "",
+        "pages": "120283",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "jang2025qsar",
+      "doi": "10.1016/j.comtox.2025.100363",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Hybrid {QSAR} modeling of {LD50} in organophosphorus nerve agents: a mechanistic approach using {DFT} and molecular docking",
+        "author": "Jang, Youngchan and Kim, Jeongyun and Lee, Doo-Hee and Yoo, Jin and Park, Jeongwan and Kang, Ku",
+        "container_title": "Computational Toxicology",
+        "volume": "35",
+        "number": "",
+        "pages": "100363",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "shin2026rapid",
+      "doi": "10.1007/s44397-026-00038-0",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "{RAPID}: a boundary-aware closed-form model for bead-based immunoassays",
+        "author": "Shin, Myeongsik and Kim, Jeongyun and Yoo, Jin and Kim, Soohwan and Lee, Doo-Hee and Kang, Ku",
+        "container_title": "Discover Sensors",
+        "volume": "2",
+        "number": "1",
+        "pages": "",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "park2026uav",
+      "doi": "10.1016/j.psep.2026.108691",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Rapid detection of hazardous chemical leaks in industrial facilities using a {UAV}–{IMS} system: Optimization of flight parameters for emergency response",
+        "author": "Park, Yangki and Park, Sangun and Lee, Junhyeok and Jang, Junho and Jeong, Hyeonwoo and Shin, Myeongsik and Yoo, Jun and Kang, Ku",
+        "container_title": "Process Safety and Environmental Protection",
+        "volume": "210",
+        "number": "",
+        "pages": "108691",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "yoo2026urine",
+      "doi": "10.1021/acssensors.6c00794",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": false,
+      "verified_fields": {
+        "title": "Urine-Based Noninvasive Detection of Prostate Cancer Using Human Olfactory Receptor-Embedded Nanodiscs",
+        "author": "Yoo, Jin and Kim, Yerin and Kang, Ku and Ahn, Young Jin and Bang, Sungun and Koo, Kyo Chul and Park, Tai Hyun",
+        "container_title": "ACS Sensors",
+        "volume": "11",
+        "number": "5",
+        "pages": "4121-4131",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "chi2025suit",
+      "doi": "10.1016/j.nexres.2025.100688",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Chemical protective suit performance against {TICs} and {CWAs}: permeation resistance and {PPE} safety evaluation",
+        "author": "Chi, Ho Sub and Kim, Eunjoo and Kim, Jeongyun and Byun, Ki-Deuk and Kang, Ku",
+        "container_title": "Next Research",
+        "volume": "2",
+        "number": "3",
+        "pages": "100688",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "nam2025butyl",
+      "doi": "10.1016/j.radphyschem.2025.113089",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": false,
+      "verified_fields": {
+        "title": "Radiation-induced degradation of butyl rubber: Impact on protection against chemical warfare agents",
+        "author": "Nam, Hanyeol and Nam, Junghyuck and Yoo, Jin and Kim, Sungki and Kang, Ku",
+        "container_title": "Radiation Physics and Chemistry",
+        "volume": "237",
+        "number": "",
+        "pages": "113089",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "kim2026tio2",
+      "doi": "10.3390/molecules31132227",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": false,
+      "verified_fields": {
+        "title": "Solar-Driven {TiO2} Photocatalytic Degradation of Live Chemical Warfare Agents: Performance Evaluation and Mechanistic Analysis",
+        "author": "Kim, Sungki and Lee, Doo-Hee and Shin, Myungsik and Kim, Jin and Kim, Min-Kun and Kang, Ku",
+        "container_title": "Molecules",
+        "volume": "31",
+        "number": "13",
+        "pages": "2227",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "shin2026resilient",
+      "doi": "10.1016/j.pnucene.2026.106446",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": false,
+      "verified_fields": {
+        "title": "Resilient, offline decision support for radiological hazard mapping and trajectory-based dose assessment in network-denied, disrupted-response environments",
+        "author": "Shin, Myeongsik and Kang, Ku",
+        "container_title": "Progress in Nuclear Energy",
+        "volume": "198",
+        "number": "",
+        "pages": "106446",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "li2018optoelectronic",
+      "doi": "10.1021/acs.chemrev.8b00226",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "The Optoelectronic Nose: Colorimetric and Fluorometric Sensor Arrays",
+        "author": "Li, Zheng and Askim, Jon R. and Suslick, Kenneth S.",
+        "container_title": "Chemical Reviews",
+        "volume": "119",
+        "number": "1",
+        "pages": "231-292",
+        "year": "2019"
+      }
+    },
+    {
+      "bibtex_key": "kumar2023chemosensors",
+      "doi": "10.1039/d2cs00651k",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Recent advances in fluorescent and colorimetric chemosensors for the detection of chemical warfare agents: a legacy of the 21st century",
+        "author": "Kumar, Vinod and Kim, Heejeong and Pandey, Bipin and James, Tony D. and Yoon, Juyoung and Anslyn, Eric V.",
+        "container_title": "Chemical Society Reviews",
+        "volume": "52",
+        "number": "2",
+        "pages": "663-704",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "meng2023fluorescent",
+      "doi": "10.1039/d2cs00650b",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Fluorescent probes for the detection of chemical warfare agents",
+        "author": "Meng, Wen-Qi and Sedgwick, Adam C. and Kwon, Nahyun and Sun, Mingxue and Xiao, Kai and He, Xiao-Peng and Anslyn, Eric V. and James, Tony D. and Yoon, Juyoung",
+        "container_title": "Chemical Society Reviews",
+        "volume": "52",
+        "number": "2",
+        "pages": "601-662",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "yang2025probes",
+      "doi": "10.1016/j.saa.2025.125815",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Recent advances in organic fluorescent probes for detecting phosgene, mustard gas, nerve agents and their mimics",
+        "author": "Yang, Yang and Bao, Xiaoying and Shao, Yuxin and Gao, Chao-Ying",
+        "container_title": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+        "volume": "332",
+        "number": "",
+        "pages": "125815",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "rakow2000odour",
+      "doi": "10.1038/35021028",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A colorimetric sensor array for odour visualization",
+        "author": "Rakow, Neal A. and Suslick, Kenneth S.",
+        "container_title": "Nature",
+        "volume": "406",
+        "number": "6797",
+        "pages": "710-713",
+        "year": "2000"
+      }
+    },
+    {
+      "bibtex_key": "kangas2016explosives",
+      "doi": "10.1080/10408347.2016.1233805",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Colorimetric Sensor Arrays for the Detection and Identification of Chemical Weapons and Explosives",
+        "author": "Kangas, Michael J. and Burks, Raychelle M. and Atwater, Jordyn and Lukowicz, Rachel M. and Williams, Pat and Holmes, Andrea E.",
+        "container_title": "Critical Reviews in Analytical Chemistry",
+        "volume": "47",
+        "number": "2",
+        "pages": "138-153",
+        "year": "2017"
+      }
+    },
+    {
+      "bibtex_key": "jang2015destruction",
+      "doi": "10.1021/acs.chemrev.5b00402",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Update 1 of: Destruction and Detection of Chemical Warfare Agents",
+        "author": "Jang, Yoon Jeong and Kim, Kibong and Tsay, Olga G. and Atwood, David A. and Churchill, David G.",
+        "container_title": "Chemical Reviews",
+        "volume": "115",
+        "number": "24",
+        "pages": "PR1-PR76",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "janzen2006voc",
+      "doi": "10.1021/ac052111s",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Colorimetric Sensor Arrays for Volatile Organic Compounds",
+        "author": "Janzen, Michael C. and Ponder, Jennifer B. and Bailey, Daniel P. and Ingison, Crystal K. and Suslick, Kenneth S.",
+        "container_title": "Analytical Chemistry",
+        "volume": "78",
+        "number": "11",
+        "pages": "3591-3600",
+        "year": "2006"
+      }
+    },
+    {
+      "bibtex_key": "feng2010toxicgases",
+      "doi": "10.1039/b926848k",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A colorimetric sensor array for identification of toxic gases below permissible exposure limits",
+        "author": "Feng, Liang and Musto, Christopher J. and Kemling, Jonathan W. and Lim, Sung H. and Suslick, Kenneth S.",
+        "container_title": "Chemical Communications",
+        "volume": "46",
+        "number": "12",
+        "pages": "2037",
+        "year": "2010"
+      }
+    },
+    {
+      "bibtex_key": "davidson2020cwa",
+      "doi": "10.1021/acssensors.0c00042",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Detection of Chemical Warfare Agents by Colorimetric Sensor Arrays",
+        "author": "Davidson, Charles E. and Dixon, Melissa M. and Williams, Barry R. and Kilper, Gary K. and Lim, Sung H. and Martino, Raymond A. and Rhodes, Paul and Hulet, Melissa S. and Miles, Ronald W. and Samuels, Alan C. and Emanuel, Peter A. and Miklos, Aleksandr E.",
+        "container_title": "ACS Sensors",
+        "volume": "5",
+        "number": "4",
+        "pages": "1102-1109",
+        "year": "2020"
+      }
+    },
+    {
+      "bibtex_key": "chulvi2012nervegas",
+      "doi": "10.1039/c2cc34662a",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Discrimination of nerve gases mimics and other organophosphorous derivatives in gas phase using a colorimetric probe array",
+        "author": "Chulvi, Katherine and Gaviña, Pablo and Costero, Ana M. and Gil, Salvador and Parra, Margarita and Gotor, Raúl and Royo, Santiago and Martínez-Máñez, Ramón and Sancenón, Felix and Vivancos, José-L.",
+        "container_title": "Chemical Communications",
+        "volume": "48",
+        "number": "81",
+        "pages": "10105",
+        "year": "2012"
+      }
+    },
+    {
+      "bibtex_key": "wiederoder2017graphene",
+      "doi": "10.1021/acssensors.7b00550",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Graphene Nanoplatelet-Polymer Chemiresistive Sensor Arrays for the Detection and Discrimination of Chemical Warfare Agent Simulants",
+        "author": "Wiederoder, Michael S. and Nallon, Eric C. and Weiss, Matt and McGraw, Shannon K. and Schnee, Vincent P. and Bright, Collin J. and Polcha, Michael P. and Paffenroth, Randy and Uzarski, Joshua R.",
+        "container_title": "ACS Sensors",
+        "volume": "2",
+        "number": "11",
+        "pages": "1669-1678",
+        "year": "2017"
+      }
+    },
+    {
+      "bibtex_key": "santonocito2023fluorescent",
+      "doi": "10.3390/chemosensors11090503",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Detection of a Nerve Agent Simulant by a Fluorescent Sensor Array",
+        "author": "Santonocito, Rossella and Spina, Mario and Puglisi, Roberta and Pappalardo, Andrea and Tuccitto, Nunzio and Trusso Sfrazzetto, Giuseppe",
+        "container_title": "Chemosensors",
+        "volume": "11",
+        "number": "9",
+        "pages": "503",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "wei2025photonicnose",
+      "doi": "10.1016/j.snb.2025.138275",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Machine learning–based six-channel dual-peak photonic nose for identifying real organophosphorus nerve agents and their simulants",
+        "author": "Wei, Jianan and Zhang, Ling and Yang, Junchao and Qin, Molin and Fan, Binyue and Yang, Liu and Cao, Shuya",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "444",
+        "number": "",
+        "pages": "138275",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "askim2015handheld",
+      "doi": "10.1021/acs.analchem.5b01499",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Hand-Held Reader for Colorimetric Sensor Arrays",
+        "author": "Askim, Jon R. and Suslick, Kenneth S.",
+        "container_title": "Analytical Chemistry",
+        "volume": "87",
+        "number": "15",
+        "pages": "7810-7816",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "hortavelazquez2025colorspace",
+      "doi": "10.1016/j.bios.2024.117089",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "The optimal color space enables advantageous smartphone-based colorimetric sensing",
+        "author": "Horta-Velázquez, Amauri and Ramos-Ortiz, Gabriel and Morales-Narváez, Eden",
+        "container_title": "Biosensors and Bioelectronics",
+        "volume": "273",
+        "number": "",
+        "pages": "117089",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "cho2023deeplearning",
+      "doi": "10.1038/s41377-023-01120-7",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Deep-learning-based gas identification by time-variant illumination of a single micro-LED-embedded gas sensor",
+        "author": "Cho, Incheol and Lee, Kichul and Sim, Young Chul and Jeong, Jae-Seok and Cho, Minkyu and Jung, Heechan and Kang, Mingu and Cho, Yong-Hoon and Ha, Seung Chul and Yoon, Kuk-Jin and Park, Inkyu",
+        "container_title": "Light: Science \\&amp; Applications",
+        "volume": "12",
+        "number": "1",
+        "pages": "",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "wold2001plsregression",
+      "doi": "10.1016/s0169-7439(01)00155-1",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "PLS-regression: a basic tool of chemometrics",
+        "author": "Wold, Svante and Sjöström, Michael and Eriksson, Lennart",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "58",
+        "number": "2",
+        "pages": "109-130",
+        "year": "2001"
+      }
+    },
+    {
+      "bibtex_key": "mei2024patternrecognition",
+      "doi": "10.1007/s40820-024-01489-z",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Overcoming the Limits of Cross-Sensitivity: Pattern Recognition Methods for Chemiresistive Gas Sensor Array",
+        "author": "Mei, Haixia and Peng, Jingyi and Wang, Tao and Zhou, Tingting and Zhao, Hongran and Zhang, Tong and Yang, Zhi",
+        "container_title": "Nano-Micro Letters",
+        "volume": "16",
+        "number": "1",
+        "pages": "",
+        "year": "2024"
+      }
+    },
+    {
+      "bibtex_key": "peveler2024food",
+      "doi": "10.1021/acssensors.4c00252",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Food for Thought: Optical Sensor Arrays and Machine Learning for the Food and Beverage Industry",
+        "author": "Peveler, William J",
+        "container_title": "ACS Sensors",
+        "volume": "9",
+        "number": "4",
+        "pages": "1656-1665",
+        "year": "2024"
+      }
+    },
+    {
+      "bibtex_key": "guo2026mlfluorescent",
+      "doi": "10.1002/adsr.202500172",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Machine Learning Assisted Fluorescent Sensor Array for Sensing Applications",
+        "author": "Guo, Haobo and Grover, Karandeep and New, Elizabeth J.",
+        "container_title": "Advanced Sensor Research",
+        "volume": "5",
+        "number": "2",
+        "pages": "",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "askim2013optoelectronic",
+      "doi": "10.1039/c3cs60179j",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Optical sensor arrays for chemical sensing: the optoelectronic nose",
+        "author": "Askim, Jon R. and Mahmoudi, Morteza and Suslick, Kenneth S.",
+        "container_title": "Chemical Society Reviews",
+        "volume": "42",
+        "number": "22",
+        "pages": "8649",
+        "year": "2013"
+      }
+    },
+    {
+      "bibtex_key": "mcdonagh2008opticalsensors",
+      "doi": "10.1021/cr068102g",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Optical Chemical Sensors",
+        "author": "McDonagh, Colette and Burke, Conor S. and MacCraith, Brian D.",
+        "container_title": "Chemical Reviews",
+        "volume": "108",
+        "number": "2",
+        "pages": "400-422",
+        "year": "2008"
+      }
+    },
+    {
+      "bibtex_key": "suslick2010coffee",
+      "doi": "10.1021/ac902823w",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Discrimination of Complex Mixtures by a Colorimetric Sensor Array: Coffee Aromas",
+        "author": "Suslick, Benjamin A. and Feng, Liang and Suslick, Kenneth S.",
+        "container_title": "Analytical Chemistry",
+        "volume": "82",
+        "number": "5",
+        "pages": "2067-2073",
+        "year": "2010"
+      }
+    },
+    {
+      "bibtex_key": "lin2010tatp",
+      "doi": "10.1021/ja107419t",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A Colorimetric Sensor Array for Detection of Triacetone Triperoxide Vapor",
+        "author": "Lin, Hengwei and Suslick, Kenneth S.",
+        "container_title": "Journal of the American Chemical Society",
+        "volume": "132",
+        "number": "44",
+        "pages": "15519-15521",
+        "year": "2010"
+      }
+    },
+    {
+      "bibtex_key": "lin2011preoxidation",
+      "doi": "10.1021/ja207718t",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Preoxidation for Colorimetric Sensor Array Detection of {VOCs}",
+        "author": "Lin, Hengwei and Jang, Minseok and Suslick, Kenneth S.",
+        "container_title": "Journal of the American Chemical Society",
+        "volume": "133",
+        "number": "42",
+        "pages": "16786-16789",
+        "year": "2011"
+      }
+    },
+    {
+      "bibtex_key": "feng2010tics",
+      "doi": "10.1021/ac1020886",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Colorimetric Sensor Array for Determination and Identification of Toxic Industrial Chemicals",
+        "author": "Feng, Liang and Musto, Christopher J. and Kemling, Jonathan W. and Lim, Sung H. and Zhong, Wenxuan and Suslick, Kenneth S.",
+        "container_title": "Analytical Chemistry",
+        "volume": "82",
+        "number": "22",
+        "pages": "9433-9440",
+        "year": "2010"
+      }
+    },
+    {
+      "bibtex_key": "li2018coethylene",
+      "doi": "10.1021/acs.analchem.8b04321",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Colorimetric Sensor Array for Monitoring {CO} and Ethylene",
+        "author": "Li, Zheng and Suslick, Kenneth S.",
+        "container_title": "Analytical Chemistry",
+        "volume": "91",
+        "number": "1",
+        "pages": "797-802",
+        "year": "2019"
+      }
+    },
+    {
+      "bibtex_key": "mahmoudi2015nanoparticles",
+      "doi": "10.1021/acssensors.5b00014",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Identification of Nanoparticles with a Colorimetric Sensor Array",
+        "author": "Mahmoudi, Morteza and Lohse, Samuel E. and Murphy, Catherine J. and Suslick, Kenneth S.",
+        "container_title": "ACS Sensors",
+        "volume": "1",
+        "number": "1",
+        "pages": "17-21",
+        "year": "2016"
+      }
+    },
+    {
+      "bibtex_key": "li2015accelerants",
+      "doi": "10.1039/c5an00806a",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Identification of accelerants, fuels and post-combustion residues using a colorimetric sensor array",
+        "author": "Li, Zheng and Jang, Minseok and Askim, Jon R. and Suslick, Kenneth S.",
+        "container_title": "The Analyst",
+        "volume": "140",
+        "number": "17",
+        "pages": "5929-5935",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "fargher2023differential",
+      "doi": "10.1002/anse.202200095",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Pushing Differential Sensing Further: The Next Steps in Design and Analysis of Bio‐Inspired Cross‐Reactive Arrays",
+        "author": "Fargher, Hazel A. and d'Oelsnitz, Simon and Diaz, Daniel J. and Anslyn, Eric V.",
+        "container_title": "Analysis \\&amp; Sensing",
+        "volume": "3",
+        "number": "2",
+        "pages": "",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "zhang2022crossreactive",
+      "doi": "10.1021/acs.analchem.2c00579",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Cross-Reactive Fluorescent Sensor Array for Discrimination of Amyloid Beta Aggregates",
+        "author": "Zhang, Pangmiaomiao and Tan, Chunyan",
+        "container_title": "Analytical Chemistry",
+        "volume": "94",
+        "number": "14",
+        "pages": "5469-5473",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "jung2019dcnp",
+      "doi": "10.3390/ma12182943",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A Selective Fluorescence Turn-On Probe for the Detection of {DCNP} (Nerve Agent Tabun Simulant)",
+        "author": "Jung, Yuna and Kim, Dokyoung",
+        "container_title": "Materials",
+        "volume": "12",
+        "number": "18",
+        "pages": "2943",
+        "year": "2019"
+      }
+    },
+    {
+      "bibtex_key": "xie2021organophosphorus",
+      "doi": "10.3390/mi12030290",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Development of Rapid and High-Precision Colorimetric Device for Organophosphorus Pesticide Detection Based on Microfluidic Mixer Chip",
+        "author": "Xie, Jiaqing and Pang, Haoran and Sun, Ruqian and Wang, Tao and Meng, Xiaoyu and Zhou, Zhikang",
+        "container_title": "Micromachines",
+        "volume": "12",
+        "number": "3",
+        "pages": "290",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "jing2011zincporphyrin",
+      "doi": "10.1016/j.egypro.2011.10.085",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Volatile Organic Compound Colorimetric Array Based on Zinc Porphyrin and Metalloporphyrin Derivatives",
+        "author": "Jing, Long and Jianhua, Xu and Shuang, Xia",
+        "container_title": "Energy Procedia",
+        "volume": "12",
+        "number": "",
+        "pages": "625-631",
+        "year": "2011"
+      }
+    },
+    {
+      "bibtex_key": "rodionova2021pca",
+      "doi": "10.1016/j.chemolab.2021.104304",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Efficient tools for principal component analysis of complex data— a tutorial",
+        "author": "Rodionova, Oxana and Kucheryavskiy, Sergey and Pomerantsev, Alexey",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "213",
+        "number": "",
+        "pages": "104304",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "suslick2004mrsnose",
+      "doi": "10.1557/mrs2004.209",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "An Optoelectronic Nose:“Seeing” Smells by Means of Colorimetric Sensor Arrays",
+        "author": "Suslick, Kenneth S.",
+        "container_title": "MRS Bulletin",
+        "volume": "29",
+        "number": "10",
+        "pages": "720-725",
+        "year": "2004"
+      }
+    },
+    {
+      "bibtex_key": "li2017liquors",
+      "doi": "10.1021/acssensors.7b00709",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A Hand-Held Optoelectronic Nose for the Identification of Liquors",
+        "author": "Li, Zheng and Suslick, Kenneth S.",
+        "container_title": "ACS Sensors",
+        "volume": "3",
+        "number": "1",
+        "pages": "121-127",
+        "year": "2018"
+      }
+    },
+    {
+      "bibtex_key": "zhang2014fungi",
+      "doi": "10.1039/c3an02112b",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Identification of pathogenic fungi with an optoelectronic nose",
+        "author": "Zhang, Yinan and Askim, Jon R. and Zhong, Wenxuan and Orlean, Peter and Suslick, Kenneth S.",
+        "container_title": "The Analyst",
+        "volume": "139",
+        "number": "8",
+        "pages": "1922-1928",
+        "year": "2014"
+      }
+    },
+    {
+      "bibtex_key": "zhang2023mlpathogen",
+      "doi": "10.1039/d3cc01320k",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A machine learning-based colorimetric sensor array for high-precision pathogen identification in household refrigerators",
+        "author": "Zhang, Yu and Qi, Gong-Xiang and Yu, Yong-Liang and Liu, Meng-Xian and Chen, Shuai",
+        "container_title": "Chemical Communications",
+        "volume": "59",
+        "number": "49",
+        "pages": "7603-7606",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "kapoor2023leakage",
+      "doi": "10.1016/j.patter.2023.100804",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+        "author": "Kapoor, Sayash and Narayanan, Arvind",
+        "container_title": "Patterns",
+        "volume": "4",
+        "number": "9",
+        "pages": "100804",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "kiraly2025dataleakage",
+      "doi": "10.1002/cem.70026",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Being Aware of Data Leakage and Cross‐Validation Scaling in Chemometric Model Validation",
+        "author": "Király, Péter and Tóth, Gergely",
+        "container_title": "Journal of Chemometrics",
+        "volume": "39",
+        "number": "4",
+        "pages": "",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "vergara2012drift",
+      "doi": "10.1016/j.snb.2012.01.074",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Chemical gas sensor drift compensation using classifier ensembles",
+        "author": "Vergara, Alexander and Vembu, Shankar and Ayhan, Tuba and Ryan, Margaret A. and Homer, Margie L. and Huerta, Ramón",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "166-167",
+        "number": "",
+        "pages": "320-329",
+        "year": "2012"
+      }
+    },
+    {
+      "bibtex_key": "zhang2015domainadaptation",
+      "doi": "10.1109/tim.2014.2367775",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Domain Adaptation Extreme Learning Machines for Drift Compensation in {E-Nose} Systems",
+        "author": "Lei Zhang and Zhang, David",
+        "container_title": "IEEE Transactions on Instrumentation and Measurement",
+        "volume": "64",
+        "number": "7",
+        "pages": "1790-1801",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "feng2022drift",
+      "doi": "10.1016/j.snb.2021.130986",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Gas identification with drift counteraction for electronic noses using augmented convolutional neural network",
+        "author": "Feng, Lihang and Dai, Haihang and Song, Xiang and Liu, Jiaming and Mei, Xue",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "351",
+        "number": "",
+        "pages": "130986",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "workman2017calibrationtransfer",
+      "doi": "10.1177/0003702817736064",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A Review of Calibration Transfer Practices and Instrument Differences in Spectroscopy",
+        "author": "Workman, Jerome J.",
+        "container_title": "Applied Spectroscopy",
+        "volume": "72",
+        "number": "3",
+        "pages": "340-365",
+        "year": "2018"
+      }
+    },
+    {
+      "bibtex_key": "sperling2025plasmonic",
+      "doi": "10.1021/acssensors.5c02485",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "An Integrated Plasmonic Sensing Array for Chemical Fingerprinting and Flavor Profiling in Beverages and Other Liquids",
+        "author": "Sperling, Justin R. and Osborne, Daniel D. and Aekbote, Badri and Perri, Anthony E. and Setford, Rebecca A. and Gao, Hanyu and Wilson, Liam T. and Sipperley, Chad M. and Schick, Rudolf J. and Gauchotte-Lindsay, Caroline and Peveler, William J. and Clark, Alasdair W.",
+        "container_title": "ACS Sensors",
+        "volume": "10",
+        "number": "10",
+        "pages": "7936-7946",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "yang2024oodsurvey",
+      "doi": "10.1007/s11263-024-02117-4",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Generalized Out-of-Distribution Detection: A Survey",
+        "author": "Yang, Jingkang and Zhou, Kaiyang and Li, Yixuan and Liu, Ziwei",
+        "container_title": "International Journal of Computer Vision",
+        "volume": "132",
+        "number": "12",
+        "pages": "5635-5662",
+        "year": "2024"
+      }
+    },
+    {
+      "bibtex_key": "saito2015prroc",
+      "doi": "10.1371/journal.pone.0118432",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "The Precision-Recall Plot Is More Informative than the {ROC} Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+        "author": "Saito, Takaya and Rehmsmeier, Marc",
+        "container_title": "PLOS ONE",
+        "volume": "10",
+        "number": "3",
+        "pages": "e0118432",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "chicco2020mcc",
+      "doi": "10.1186/s12864-019-6413-7",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "The advantages of the Matthews correlation coefficient ({MCC}) over F1 score and accuracy in binary classification evaluation",
+        "author": "Chicco, Davide and Jurman, Giuseppe",
+        "container_title": "BMC Genomics",
+        "volume": "21",
+        "number": "1",
+        "pages": "",
+        "year": "2020"
+      }
+    },
+    {
+      "bibtex_key": "blagec2021oversampling",
+      "doi": "10.1016/j.artmed.2020.101987",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Overly optimistic prediction results on imbalanced data: a case study of flaws and benefits when applying over-sampling",
+        "author": "Vandewiele, Gilles and Dehaene, Isabelle and Kovács, György and Sterckx, Lucas and Janssens, Olivier and Ongenae, Femke and De Backere, Femke and De Turck, Filip and Roelens, Kristien and Decruyenaere, Johan and Van Hoecke, Sofie and Demeester, Thomas",
+        "container_title": "Artificial Intelligence in Medicine",
+        "volume": "111",
+        "number": "",
+        "pages": "101987",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "roberts2021pitfalls",
+      "doi": "10.1038/s42256-021-00307-0",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for {COVID-19} using chest radiographs and {CT} scans",
+        "author": "Roberts, Michael and Driggs, Derek and Thorpe, Matthew and Gilbey, Julian and Yeung, Michael and Ursprung, Stephan and Aviles-Rivero, Angelica I. and Etmann, Christian and McCague, Cathal and Beer, Lucian and Weir-McCall, Jonathan R. and Teng, Zhongzhao and Gkrania-Klotsas, Effrossyni and {AIX-COVNET} and Ruggiero, Alessandro and Korhonen, Anna and Jefferson, Emily and Ako, Emmanuel and Langs, Georg and Gozaliasl, Ghassem and Yang, Guang and Prosch, Helmut and Preller, Jacobus and Stanczuk, Jan and Tang, Jing and Hofmanninger, Johannes and Babar, Judith and Sánchez, Lorena Escudero and Thillai, Muhunthan and Gonzalez, Paula Martin and Teare, Philip and Zhu, Xiaoxiang and Patel, Mishal and Cafolla, Conor and Azadbakht, Hojjat and Jacob, Joseph and Lowe, Josh and Zhang, Kang and Bradley, Kyle and Wassin, Marcel and Holzer, Markus and Ji, Kangyu and Ortet, Maria Delgado and Ai, Tao and Walton, Nicholas and Lio, Pietro and Stranks, Samuel and Shadbahr, Tolou and Lin, Weizhe and Zha, Yunfei and Niu, Zhangming and Rudd, James H. F. and Sala, Evis and Schönlieb, Carola-Bibiane",
+        "container_title": "Nature Machine Intelligence",
+        "volume": "3",
+        "number": "3",
+        "pages": "199-217",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "whalen2022pitfalls",
+      "doi": "10.1038/s41576-021-00434-9",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Navigating the pitfalls of applying machine learning in genomics",
+        "author": "Whalen, Sean and Schreiber, Jacob and Noble, William S. and Pollard, Katherine S.",
+        "container_title": "Nature Reviews Genetics",
+        "volume": "23",
+        "number": "3",
+        "pages": "169-181",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "murdoch2019interpretable",
+      "doi": "10.1073/pnas.1900654116",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Definitions, methods, and applications in interpretable machine learning",
+        "author": "Murdoch, W. James and Singh, Chandan and Kumbier, Karl and Abbasi-Asl, Reza and Yu, Bin",
+        "container_title": "Proceedings of the National Academy of Sciences",
+        "volume": "116",
+        "number": "44",
+        "pages": "22071-22080",
+        "year": "2019"
+      }
+    },
+    {
+      "bibtex_key": "ho2020external",
+      "doi": "10.1016/j.patter.2020.100129",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Extensions of the External Validation for Checking Learned Model Interpretability and Generalizability",
+        "author": "Ho, Sung Yang and Phua, Kimberly and Wong, Limsoon and Bin Goh, Wilson Wen",
+        "container_title": "Patterns",
+        "volume": "1",
+        "number": "8",
+        "pages": "100129",
+        "year": "2020"
+      }
+    },
+    {
+      "bibtex_key": "zhang2021rethinking",
+      "doi": "10.1145/3446776",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Understanding deep learning (still) requires rethinking generalization",
+        "author": "Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol",
+        "container_title": "Communications of the ACM",
+        "volume": "64",
+        "number": "3",
+        "pages": "107-115",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "rudin2019stopexplaining",
+      "doi": "10.1038/s42256-019-0048-x",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+        "author": "Rudin, Cynthia",
+        "container_title": "Nature Machine Intelligence",
+        "volume": "1",
+        "number": "5",
+        "pages": "206-215",
+        "year": "2019"
+      }
+    },
+    {
+      "bibtex_key": "abdar2021uqreview",
+      "doi": "10.1016/j.inffus.2021.05.008",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A review of uncertainty quantification in deep learning: Techniques, applications and challenges",
+        "author": "Abdar, Moloud and Pourpanah, Farhad and Hussain, Sadiq and Rezazadegan, Dana and Liu, Li and Ghavamzadeh, Mohammad and Fieguth, Paul and Cao, Xiaochun and Khosravi, Abbas and Acharya, U. Rajendra and Makarenkov, Vladimir and Nahavandi, Saeid",
+        "container_title": "Information Fusion",
+        "volume": "76",
+        "number": "",
+        "pages": "243-297",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "scheirer2013openset",
+      "doi": "10.1109/tpami.2012.256",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Toward Open Set Recognition",
+        "author": "Scheirer, W. J. and de Rezende Rocha, A. and Sapkota, A. and Boult, T. E.",
+        "container_title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "volume": "35",
+        "number": "7",
+        "pages": "1757-1772",
+        "year": "2013"
+      }
+    },
+    {
+      "bibtex_key": "feudale2002transfer",
+      "doi": "10.1016/s0169-7439(02)00085-0",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Transfer of multivariate calibration models: a review",
+        "author": "Feudale, Robert N. and Woody, Nathaniel A. and Tan, Huwei and Myles, Anthony J. and Brown, Steven D. and Ferré, Joan",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "64",
+        "number": "2",
+        "pages": "181-192",
+        "year": "2002"
+      }
+    },
+    {
+      "bibtex_key": "wang1991standardization",
+      "doi": "10.1021/ac00023a016",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Multivariate instrument standardization",
+        "author": "Wang, Yongdong. and Veltkamp, David J. and Kowalski, Bruce R.",
+        "container_title": "Analytical Chemistry",
+        "volume": "63",
+        "number": "23",
+        "pages": "2750-2756",
+        "year": "1991"
+      }
+    },
+    {
+      "bibtex_key": "yan2016coupledtask",
+      "doi": "10.1016/j.snb.2015.11.058",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Calibration transfer and drift compensation of e-noses via coupled task learning",
+        "author": "Yan, Ke and Zhang, David",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "225",
+        "number": "",
+        "pages": "288-297",
+        "year": "2016"
+      }
+    },
+    {
+      "bibtex_key": "rodriguezlujan2014calibration",
+      "doi": "10.1016/j.chemolab.2013.10.012",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "On the calibration of sensor arrays for pattern recognition using the minimal number of experiments",
+        "author": "Rodriguez-Lujan, Irene and Fonollosa, Jordi and Vergara, Alexander and Homer, Margie and Huerta, Ramon",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "130",
+        "number": "",
+        "pages": "123-134",
+        "year": "2014"
+      }
+    },
+    {
+      "bibtex_key": "naeini2015bayesianbinning",
+      "doi": "10.1609/aaai.v29i1.9602",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Obtaining Well Calibrated Probabilities Using Bayesian Binning",
+        "author": "Pakdaman Naeini, Mahdi and Cooper, Gregory and Hauskrecht, Milos",
+        "container_title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "volume": "29",
+        "number": "1",
+        "pages": "",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "angelopoulos2023conformal",
+      "doi": "10.1561/2200000101",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Conformal Prediction: A Gentle Introduction",
+        "author": "Angelopoulos, Anastasios N. and Bates, Stephen",
+        "container_title": "Foundations and Trends® in Machine Learning",
+        "volume": "16",
+        "number": "4",
+        "pages": "494-591",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "fonollosa2015reservoir",
+      "doi": "10.1016/j.snb.2015.03.028",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Reservoir computing compensates slow response of chemosensor arrays exposed to fast varying gas concentrations in continuous monitoring",
+        "author": "Fonollosa, Jordi and Sheik, Sadique and Huerta, Ramón and Marco, Santiago",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "215",
+        "number": "",
+        "pages": "618-629",
+        "year": "2015"
+      }
+    },
+    {
+      "bibtex_key": "vergara2013opensampling",
+      "doi": "10.1016/j.snb.2013.05.027",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "On the performance of gas sensor arrays in open sampling systems using Inhibitory Support Vector Machines",
+        "author": "Vergara, Alexander and Fonollosa, Jordi and Mahiques, Jonas and Trincavelli, Marco and Rulkov, Nikolai and Huerta, Ramón",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "185",
+        "number": "",
+        "pages": "462-477",
+        "year": "2013"
+      }
+    },
+    {
+      "bibtex_key": "ziyatdinov2010cpca",
+      "doi": "10.1016/j.snb.2009.11.034",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Drift compensation of gas sensor array data by common principal component analysis",
+        "author": "Ziyatdinov, A. and Marco, S. and Chaudry, A. and Persaud, K. and Caminal, P. and Perera, A.",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "146",
+        "number": "2",
+        "pages": "460-465",
+        "year": "2010"
+      }
+    },
+    {
+      "bibtex_key": "marco2012signalprocessing",
+      "doi": "10.1109/jsen.2012.2192920",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Signal and Data Processing for Machine Olfaction and Chemical Sensing: A Review",
+        "author": "Marco, S. and Gutierrez-Galvez, A.",
+        "container_title": "IEEE Sensors Journal",
+        "volume": "12",
+        "number": "11",
+        "pages": "3189-3214",
+        "year": "2012"
+      }
+    },
+    {
+      "bibtex_key": "nakhleh2017disease",
+      "doi": "10.1021/acsnano.6b04930",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Diagnosis and Classification of 17 Diseases from 1404 Subjects via Pattern Analysis of Exhaled Molecules",
+        "author": "Nakhleh, Morad K. and Amal, Haitham and Jeries, Raneen and Broza, Yoav Y. and Aboud, Manal and Gharra, Alaa and Ivgi, Hodaya and Khatib, Salam and Badarneh, Shifaa and Har-Shai, Lior and Glass-Marmor, Lea and Lejbkowicz, Izabella and Miller, Ariel and Badarny, Samih and Winer, Raz and Finberg, John and Cohen-Kaminsky, Sylvia and Perros, Frédéric and Montani, David and Girerd, Barbara and Garcia, Gilles and Simonneau, Gérald and Nakhoul, Farid and Baram, Shira and Salim, Raed and Hakim, Marwan and Gruber, Maayan and Ronen, Ohad and Marshak, Tal and Doweck, Ilana and Nativ, Ofer and Bahouth, Zaher and Shi, Da-you and Zhang, Wei and Hua, Qing-ling and Pan, Yue-yin and Tao, Li and Liu, Hu and Karban, Amir and Koifman, Eduard and Rainis, Tova and Skapars, Roberts and Sivins, Armands and Ancans, Guntis and Liepniece-Karele, Inta and Kikuste, Ilze and Lasina, Ieva and Tolmanis, Ivars and Johnson, Douglas and Millstone, Stuart Z. and Fulton, Jennifer and Wells, John W. and Wilf, Larry H. and Humbert, Marc and Leja, Marcis and Peled, Nir and Haick, Hossam",
+        "container_title": "ACS Nano",
+        "volume": "11",
+        "number": "1",
+        "pages": "112-125",
+        "year": "2017"
+      }
+    },
+    {
+      "bibtex_key": "vovk2022conformalbook",
+      "doi": "10.1007/978-3-031-06649-8",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Algorithmic Learning in a Random World",
+        "author": "Vovk, Vladimir and Gammerman, Alexander and Shafer, Glenn",
+        "container_title": "Springer",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "wilson2009enose",
+      "doi": "10.3390/s90705099",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Applications and Advances in Electronic-Nose Technologies",
+        "author": "Wilson, Alphus D. and Baietto, Manuela",
+        "container_title": "Sensors",
+        "volume": "9",
+        "number": "7",
+        "pages": "5099-5148",
+        "year": "2009"
+      }
+    },
+    {
+      "bibtex_key": "dutta2022tinyml",
+      "doi": "10.1109/icaiic54071.2022.9722636",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "TinyML: A Systematic Review and Synthesis of Existing Research",
+        "author": "Han, Hui and Siebert, Julien",
+        "container_title": "2022 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)",
+        "volume": "",
+        "number": "",
+        "pages": "269-274",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "gama2014conceptdrift",
+      "doi": "10.1145/2523813",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A survey on concept drift adaptation",
+        "author": "Gama, João and Žliobaitė, Indrė and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Abdelhamid",
+        "container_title": "ACM Computing Surveys",
+        "volume": "46",
+        "number": "4",
+        "pages": "1-37",
+        "year": "2014"
+      }
+    },
+    {
+      "bibtex_key": "ganin2017dann",
+      "doi": "10.1007/978-3-319-58347-1_10",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Domain-Adversarial Training of Neural Networks",
+        "author": "Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, François and Marchand, Mario and Lempitsky, Victor",
+        "container_title": "Domain Adaptation in Computer Vision Applications",
+        "volume": "",
+        "number": "",
+        "pages": "189-209",
+        "year": "2017"
+      }
+    },
+    {
+      "bibtex_key": "kull2017betacalib",
+      "doi": "10.1214/17-ejs1338si",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Beyond sigmoids: How to obtain well-calibrated probabilities from binary classifiers with beta calibration",
+        "author": "Kull, Meelis and Silva Filho, Telmo M. and Flach, Peter",
+        "container_title": "Electronic Journal of Statistics",
+        "volume": "11",
+        "number": "2",
+        "pages": "",
+        "year": "2017"
+      }
+    },
+    {
+      "bibtex_key": "geng2021opensetsurvey",
+      "doi": "10.1109/tpami.2020.2981604",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Recent Advances in Open Set Recognition: A Survey",
+        "author": "Geng, Chuanxing and Huang, Sheng-Jun and Chen, Songcan",
+        "container_title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "volume": "43",
+        "number": "10",
+        "pages": "3614-3631",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "kang2026fireopenset",
+      "doi": "10.1016/j.jhazmat.2026.143199",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Open-set combustion-fingerprint classification with out-of-distribution alerting for environmental fire-hazard screening",
+        "author": "Kang, Ku and Kim, Jeongyun and Jang, Yoon Jeong and Shin, Myeongsik and Kim, Soohwan and Yoo, Jin",
+        "container_title": "Journal of Hazardous Materials",
+        "volume": "516",
+        "number": "",
+        "pages": "143199",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "kim2026whitepowder",
+      "doi": "10.1039/d6an00467a",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A chemometrically validated, field-portable wet-chemical protocol for rapid triage of 15 white powder substances",
+        "author": "Kim, Soohwan and Yoo, Jin and Kim, Jeongyun and Lee, Doo-Hee and Shin, Myeongsik and Kim, Min-Kun and Jang, Yoon Jeong and Kang, Ku",
+        "container_title": "Analyst",
+        "volume": "151",
+        "number": "17",
+        "pages": "5085--5094",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "xu2025mems",
+      "doi": "10.3390/s25082633",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Detection and pattern recognition of chemical warfare agents by {MOS}-based {MEMS} gas sensor array",
+        "author": "Xu, Mengxue and Hu, Xiaochun and Zhang, Hongpeng and Miao, Ting and Ma, Lan and Liang, Jing and Zhu, Yuefeng and Zhu, Haiyan and Cheng, Zhenxing and Sun, Xuhui",
+        "container_title": "Sensors",
+        "volume": "25",
+        "number": "8",
+        "pages": "2633",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "liberatore2025qepas",
+      "doi": "10.1093/fsr/owaf002",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A novel signal processing approach enabled by machine learning for the detection and identification of chemical warfare agent simulants using a {GC}-{QEPAS} system",
+        "author": "Liberatore, Nicola and Felizzato, Giorgio and Mengali, Sandro and Viola, Roberto and Romolo, Francesco Saverio",
+        "container_title": "Forensic Sciences Research",
+        "volume": "10",
+        "number": "3",
+        "pages": "owaf002",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "chen2024tea",
+      "doi": "10.1016/j.foodres.2024.114960",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Intelligent identification of picking periods of {L}u'an {G}uapian tea by an indicator displacement colorimetric sensor array combined with machine learning",
+        "author": "Chen, Yao and Li, Yuan and Lin, Li-Lin and Liao, Yue and Fang, Huan and Wang, Tong",
+        "container_title": "Food Research International",
+        "volume": "195",
+        "number": "",
+        "pages": "114960",
+        "year": "2024"
+      }
+    },
+    {
+      "bibtex_key": "chen2026nanozyme",
+      "doi": "10.1016/j.bios.2026.119042",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Machine learning-assisted colorimetric sensor array using a microbially synthesized {P}russian blue nanozyme with enhanced {POD}-like activity for discriminating sulfur-containing metal salts",
+        "author": "Chen, Fang and Li, Mengping and Xu, Xinqi and An, Xiaoxiao and Lv, Yan and Shi, Xingbo",
+        "container_title": "Biosensors and Bioelectronics",
+        "volume": "312",
+        "number": "",
+        "pages": "119042",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "yao2023openset",
+      "doi": "10.1016/j.chemolab.2023.105003",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Investigation on the combined model of sensor drift compensation and open-set gas recognition based on electronic nose datasets",
+        "author": "Yao, Youbin and Chen, Bin and Liu, Chuanjun and Qu, Cheng",
+        "container_title": "Chemometrics and Intelligent Laboratory Systems",
+        "volume": "242",
+        "number": "",
+        "pages": "105003",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "yao2024openset",
+      "doi": "10.1016/j.eswa.2024.123757",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Open-set adversarial domain match for electronic nose drift compensation and unknown gas recognition",
+        "author": "Yao, Youbin and Chen, Bin and Liu, Chuanjun and Feng, Changhao and Gao, Xuliang and Gu, Yun",
+        "container_title": "Expert Systems with Applications",
+        "volume": "250",
+        "number": "",
+        "pages": "123757",
+        "year": "2024"
+      }
+    },
+    {
+      "bibtex_key": "mishra2021deepcaltransfer",
+      "doi": "10.1016/j.infrared.2021.103863",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Deep calibration transfer: transferring deep learning models between infrared spectroscopy instruments",
+        "author": "Mishra, Puneet and Passos, D{\\'a}rio",
+        "container_title": "Infrared Physics \\& Technology",
+        "volume": "117",
+        "number": "",
+        "pages": "103863",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "zhang2022nirtransfer",
+      "doi": "10.1177/09670335221110013",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Transfer of a calibration model for the prediction of lignin in pulpwood among four portable near infrared spectrometers",
+        "author": "Zhang, Xiaoxue and Chen, Xinyu and Xiong, Zhixin and Siesler, Heinz W. and Liang, Long",
+        "container_title": "Journal of Near Infrared Spectroscopy",
+        "volume": "30",
+        "number": "4",
+        "pages": "208--218",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "kanchan2025smartphone",
+      "doi": "10.1007/s42452-025-06859-9",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Pilot study: a low-cost, point-of-care microfluidic chip for smartphone-integrated colorimetric detection using convolutional neural networks",
+        "author": "Kanchan, Mithun and Arun, Pedapudi Anantha Hari and Chutke, Siddhant Rakesh",
+        "container_title": "Discover Applied Sciences",
+        "volume": "7",
+        "number": "8",
+        "pages": "829",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "kanaparthi2021tempsweep",
+      "doi": "10.1016/j.snb.2021.130725",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Discrimination of gases with a single chemiresistive multi-gas sensor using temperature sweeping and machine learning",
+        "author": "Kanaparthi, Srinivasulu and Singh, Shiv Govind",
+        "container_title": "Sensors and Actuators B: Chemical",
+        "volume": "348",
+        "number": "",
+        "pages": "130725",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "kroutil2022paniarray",
+      "doi": "10.3762/bjnano.13.34",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A chemiresistive sensor array based on polyaniline nanocomposites and machine learning classification",
+        "author": "Kroutil, Jiri and Laposa, Alexandr and Ahmad, Ali and Voves, Jan and Povolny, Vojtech and Klimsa, Ladislav and Davydova, Marina and Husak, Miroslav",
+        "container_title": "Beilstein Journal of Nanotechnology",
+        "volume": "13",
+        "number": "",
+        "pages": "411--423",
+        "year": "2022"
+      }
+    },
+    {
+      "bibtex_key": "wei2025mofanion",
+      "doi": "10.1016/j.cej.2025.162796",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Machine learning-driven sensor array based on luminescent metal--organic frameworks for simultaneous discrimination of multiple anions",
+        "author": "Wei, Dali and Xu, Cheng and Wang, Ying and Feng, Weiwei and Deng, Chunmeng and Wu, Xiangyang and Deng, Yibin and Yang, Zhugen and Zhang, Zhen",
+        "container_title": "Chemical Engineering Journal",
+        "volume": "512",
+        "number": "",
+        "pages": "162796",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "xing2026mofnerve",
+      "doi": "10.1021/acs.inorgchem.6c01539",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Guest-dependent luminescent gallium metal--organic framework for ultrasensitive detection of nerve agent simulant",
+        "author": "Xing, Chen-Chen and Li, Dan and Du, Shun-Fu and Li, Zi-Chang and Lv, Wei and Ma, Jing and Zhai, Quan-Guo",
+        "container_title": "Inorganic Chemistry",
+        "volume": "65",
+        "number": "21",
+        "pages": "11974--11985",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "jovic2025conformal",
+      "doi": "10.1016/j.foodchem.2025.145387",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Conformal predictors in chemometric study of mid-infrared food adulteration: quantification of prediction uncertainty",
+        "author": "Jovic, Ozren",
+        "container_title": "Food Chemistry",
+        "volume": "492",
+        "number": "",
+        "pages": "145387",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "dockes2021datasetshift",
+      "doi": "10.1093/gigascience/giab055",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Preventing dataset shift from breaking machine-learning biomarkers",
+        "author": "Dock{\\`e}s, J{\\'e}r{\\^o}me and Varoquaux, Ga{\\\"e}l and Poline, Jean-Baptiste",
+        "container_title": "GigaScience",
+        "volume": "10",
+        "number": "9",
+        "pages": "giab055",
+        "year": "2021"
+      }
+    },
+    {
+      "bibtex_key": "cheng2025mofdetox",
+      "doi": "10.1002/adma.202413848",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Advancing Metal--Organic Framework-Based Composites for Effective Chemical Warfare Agent Detoxification under Real-World Conditions",
+        "author": "Cheng, Zhihua and Fahy, Kira M. and Peterson, Gregory W. and Kirlikovali, Kent O. and Farha, Omar K.",
+        "container_title": "Advanced Materials",
+        "volume": "37",
+        "number": "52",
+        "pages": "2413848",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "liu2023chemiresistive",
+      "doi": "10.1515/revac-2022-0052",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Progress of sensitive materials in chemiresistive sensors for detecting chemical warfare agent simulants: A review",
+        "author": "Yang, Liu and Qin, Molin and Zhang, Genwei and Yang, Jie and Yang, Junchao and Zhao, Jiang",
+        "container_title": "Reviews in Analytical Chemistry",
+        "volume": "42",
+        "number": "1",
+        "pages": "20220052",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "webb2025simulants",
+      "doi": "10.1016/j.jhazmat.2025.138021",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A critical review of liquid, low toxicity chemical warfare agent simulants: Enhancing accuracy, safety, and methodological approaches for sampling",
+        "author": "Webb, Sally and Coulon, Frederic and Temple, Tracey",
+        "container_title": "Journal of Hazardous Materials",
+        "volume": "492",
+        "number": "",
+        "pages": "138021",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "sun2020aunparray",
+      "doi": "10.1016/j.trac.2019.115754",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Colorimetric sensor array based on gold nanoparticles: Design principles and recent advances",
+        "author": "Sun, Jingwei and Lu, Yuexiang and He, Liuying and Pang, Jiawei and Yang, Fengyi and Liu, Yueying",
+        "container_title": "TrAC Trends in Analytical Chemistry",
+        "volume": "122",
+        "number": "",
+        "pages": "115754",
+        "year": "2020"
+      }
+    },
+    {
+      "bibtex_key": "bilal2025foodarray",
+      "doi": "10.1080/87559129.2025.2526677",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Innovative Advances in Colorimetric Sensor Array Technology for Food Safety and Quality Assessment: An Updated Comprehensive Review",
+        "author": "Bilal, Muhammad and Shabbir, Muhammad Asim and Iqbal, Waqar and Ullah, Samee and Asim, Muhammad and Arslan, Muhammad and Shaukat, Faryal and Li, Zhihua and Xia, Sun and Xiaobo, Zou",
+        "container_title": "Food Reviews International",
+        "volume": "42",
+        "number": "3",
+        "pages": "1797--1822",
+        "year": "2026"
+      }
+    },
+    {
+      "bibtex_key": "kumar2023foodqc",
+      "doi": "10.3390/s23084017",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Review on Sensor Array-Based Analytical Technologies for Quality Control of Food and Beverages",
+        "author": "Kumar, Abhishek and Castro, Mickael and Feller, Jean-Fran\\c{c}ois",
+        "container_title": "Sensors",
+        "volume": "23",
+        "number": "8",
+        "pages": "4017",
+        "year": "2023"
+      }
+    },
+    {
+      "bibtex_key": "lin2024mlnanomaterial",
+      "doi": "10.1080/10408398.2024.2376113",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "Elevating nanomaterial optical sensor arrays through the integration of advanced machine learning techniques for enhancing visual inspection of food quality and safety",
+        "author": "Lin, Yuandong and Cheng, Jun-Hu and Ma, Ji and Zhou, Chenyue and Sun, Da-Wen",
+        "container_title": "Critical Reviews in Food Science and Nutrition",
+        "volume": "65",
+        "number": "19",
+        "pages": "3628--3649",
+        "year": "2025"
+      }
+    },
+    {
+      "bibtex_key": "yu2025mlgasmedical",
+      "doi": "10.3390/bios15080548",
+      "crossref_doi_resolves": true,
+      "cited_in_main_text": true,
+      "verified_fields": {
+        "title": "A Review of Machine Learning-Assisted Gas Sensor Arrays in Medical Diagnosis",
+        "author": "Yu, Yueting and Cao, Xin and Li, Chenxi and Zhou, Mingyue and Liu, Tianyu and Liu, Jiang and Zhang, Lu",
+        "container_title": "Biosensors",
+        "volume": "15",
+        "number": "8",
+        "pages": "548",
+        "year": "2025"
+      }
+    }
+  ],
+  "retraction_screen": {
+    "performed_on": "2026-10-01",
+    "method": "Crossref update-to / updated-by fields queried for every cited DOI.",
+    "retractions_found": 0,
+    "expressions_of_concern_found": 0,
+    "corrections_found": 1,
+    "corrections": [
+      {
+        "bibtex_key": "cho2023deeplearning",
+        "doi": "10.1038/s41377-023-01120-7",
+        "correction_doi": "10.1038/s41377-025-02023-5",
+        "correction_title": "Correction: Deep-learning-based gas identification by time-variant illumination of a single micro-LED-embedded gas sensor",
+        "correction_year": 2025,
+        "journal": "Light: Science & Applications",
+        "assessment": "Publisher correction to the cited article; the article is not retracted and remains citable. This Review cites it only for the general point that raw optical/temporal signal structure can carry information that hand-engineered descriptors discard, and for its reporting of an illumination protocol. The correction does not bear on either use."
+      }
+    ]
+  },
+  "revalidation_note": "Re-verified in full on 2026-10-01. All 116 DOIs resolve; no title, author, journal, volume, page or year mismatches remain. The five entries whose 'pages' field holds a publisher article identifier (liberatore2025qepas, kanchan2025smartphone, dockes2021datasetshift, cheng2025mofdetox, liu2023chemiresistive) are unchanged and remain correct; Crossref reports no page range for these records.",
+  "corrections_applied_2026_10_01": [
+    {
+      "bibtex_key": "kim2026whitepowder",
+      "field": "number (issue)",
+      "was": "20",
+      "now": "17"
+    },
+    {
+      "bibtex_key": "cheng2025mofdetox",
+      "field": "number (issue)",
+      "was": "49",
+      "now": "52"
+    },
+    {
+      "bibtex_key": "bilal2025foodarray",
+      "field": "number (issue)",
+      "was": "7",
+      "now": "3",
+      "note": "also confirmed on the Taylor & Francis landing page (Vol 42, No 3)"
+    },
+    {
+      "bibtex_key": "lin2024mlnanomaterial",
+      "field": "number (issue)",
+      "was": "20",
+      "now": "19"
+    },
+    {
+      "bibtex_key": "liu2023chemiresistive",
+      "field": "number (issue)",
+      "was": "(absent)",
+      "now": "1"
+    },
+    {
+      "bibtex_key": "roberts2021pitfalls",
+      "field": "author",
+      "was": "53 personal authors",
+      "now": "54 authors: consortium author AIX-COVNET added at position 14, matching the Crossref record"
+    }
+  ],
+  "note_on_2026_09_07_issue_numbers": "The four wrong issue numbers above were introduced on 2026-09-07, when issue fields were added to previously incomplete entries without checking them against Crossref. All issue fields are now verified."
+}

@@ -1,0 +1,55 @@
+study,primary_optical_array,main_role,authentic,experimental_unit,batch_temporal_drift,device_operator_site_transfer,interferent_matrix,open_set_ood,basis_notes
+Rakow 2000,1,foundational array,not CWA,--,no,no,mixture/odor context,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Janzen 2006,1,VOC colorimetric array,not CWA,not explicit,no,no,VOC panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Feng 2010a,1,TIC colorimetric array,TIC,not explicit,no,no,toxic gas panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Feng 2010b,1,TIC identification,TIC,not explicit,no,no,TIC panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Lin 2010,1,explosive vapor,not CWA,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Lin 2011,1,VOC preoxidation,not CWA,not explicit,no,no,VOC panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Li 2019,0,major review,--,--,--,--,--,--,temporal: --
+Askim 2013,0,major review,--,--,--,--,--,--,temporal: --
+Kangas 2017,0,CWA/explosive review,--,--,--,--,--,--,temporal: --
+Jang 2015,0,CWA review,--,--,--,--,--,--,temporal: --
+Kumar 2023,0,CWA chemosensor review,--,--,--,--,--,--,temporal: --
+Meng 2023,0,CWA probe review,--,--,--,--,--,--,temporal: --
+Yang 2025,0,CWA probe review,--,--,--,--,--,--,temporal: --
+Davidson 2020,1,colorimetric CWA array,authentic,partial,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Chulvi 2012,1,simulant array,simulant,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Santonocito 2023,1,simulant fluorescent array,simulant,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Wiederoder 2017,0,chemiresistive contrast,simulant,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Kim 2026a,1,ML colorimetric CWA array,authentic,partial,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Kim 2025,1,dual-mode CWA array,simulant/agent-focused,partial,no,no,partial,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Shin 2026,1,portable optical CWA array,authentic,partial,no,partial,partial,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Wei 2025,1,photonic nose,authentic + simulant,partial,no,no,partial,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Bae 2025,1,field-deployable AI reader,CWA-related,partial,no,partial,partial,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Askim 2015,1,handheld reader,not CWA,partial,no,partial,partial,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Horta-Velazquez 2025,1,smartphone colorimetry,not CWA,--,no,partial,--,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Sperling 2025,1,plasmonic array,food/liquid,partial,no,partial,complex liquid,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Cho 2023,1,optical gas ML,gas sensing,partial,no,no,gas panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Peveler 2024,0,ACS Sensors perspective,food/beverage,--,--,--,--,--,temporal: --
+Guo 2026,0,ML fluorescent review,--,--,--,--,--,--,temporal: --
+Kapoor 2023,0,leakage methods,--,conceptual,concept,--,--,--,temporal: concept
+Kiraly 2025,0,chemometrics leakage,--,conceptual,concept,--,--,--,temporal: concept
+Vergara 2012,0,gas-sensor drift benchmark,gas sensor,explicit batch,yes,no,gas panel,no,temporal: time/lot-separated test reported; device: single device/operator/site
+Ziyatdinov 2010,0,drift compensation,gas sensor,batch/time,yes,no,gas panel,no,temporal: time/lot-separated test reported; device: single device/operator/site
+Zhang 2015,0,drift/domain adaptation,gas sensor,batch/time,yes,no,gas panel,no,temporal: time/lot-separated test reported; device: single device/operator/site
+Feng 2022,0,drift counteraction,gas sensor,batch/time,yes,no,gas panel,no,temporal: time/lot-separated test reported; device: single device/operator/site
+Workman 2018,0,calibration transfer review,--,conceptual,--,concept,--,--,temporal: --
+Feudale 2002,0,calibration transfer review,--,conceptual,--,concept,--,--,temporal: --
+Scheirer 2013,0,open-set method,--,conceptual,--,--,--,yes,temporal: --
+Geng 2021,0,open-set review,--,conceptual,--,--,--,yes,temporal: --
+Yang 2024,0,OOD review,--,conceptual,--,--,--,yes,temporal: --
+Angelopoulos 2023,0,uncertainty method,--,conceptual,--,--,--,partial,temporal: --
+Kim 2026b,0,gas-sensor drift benchmark,gas,explicit batch,yes,no,gas panel,no,temporal: time/lot-separated test reported; device: single device/operator/site
+Park 2026,0,UAV-IMS deployment,CWA-related,partial,no,partial,field release,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Xu 2025,0,MOS-MEMS CWA array,authentic,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Liberatore 2025,0,GC-QEPAS ML CWA,simulant,not explicit,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Chen 2024,1,tea colorimetric array,not CWA,partial,no,no,food matrix,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Chen 2026,1,nanozyme colorimetric array,not CWA,partial,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Kanaparthi 2021,0,chemiresistive temp-sweep,gas,not explicit,no,no,gas panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Kroutil 2022,0,PANI chemiresistive array,gas,partial,no,no,gas panel,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"
+Kanchan 2025,1,smartphone colorimetric CNN,not CWA,partial,no,partial,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: reader/device provenance documented, no held-out-device test"
+Yao 2023,0,e-nose drift + open-set,gas,batch/time,yes,no,gas panel,yes,temporal: time/lot-separated test reported; device: single device/operator/site
+Yao 2024,0,e-nose open-set,gas,batch/time,yes,no,gas panel,yes,temporal: time/lot-separated test reported; device: single device/operator/site
+Mishra 2021,0,calibration transfer method,--,conceptual,--,concept,--,--,temporal: --
+Zhang 2022,0,NIR calibration transfer,--,conceptual,--,concept,--,--,temporal: --
+Shin 2026 (RAPID),0,immunoassay quantification,CWA-related,partial,no,no,limited,no,"temporal: single session/lot, no time- or lot-separated holdout; device: single device/operator/site"

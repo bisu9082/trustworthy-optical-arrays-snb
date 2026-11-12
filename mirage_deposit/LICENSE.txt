@@ -1,0 +1,4 @@
+Code (code/*.py): MIT License.
+Derived data (data/*, results/*, evidence_map.*): Creative Commons Attribution 4.0 (CC-BY-4.0).
+Raw authentic-agent images are NOT included (release-restricted).
+Please cite the Review (Sensors and Actuators B: Chemical, SNB-D-26-08464) and this archive.
